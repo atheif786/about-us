@@ -1,0 +1,418 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.about-eleks-section {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 20px;
+    padding: 40px;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+}
+
+.about-eleks-content {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.content-overlay {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    padding: 60px;
+    border-radius: 15px;
+}
+
+.content-overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.content-overlay p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #f0f0f0;
+}
+
+.about-eleks-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.about-eleks-buttons button {
+    padding: 15px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-expert {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.btn-video {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.about-eleks-stats {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.stat {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.stat h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.stat p {
+    font-size: 1.1rem;
+    color: #666666;
+}
+
+/* YourComponent.css */
+.container {
+    width: 100%;
+    margin-left: 50px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  
+  h2 {
+    font-size: 100em;
+    margin-bottom: 20px;
+  }
+  
+  .solutions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
+  }
+  
+  .solution {
+    width: 30%;
+  }
+  
+  h3 {
+    color: #0056b3; /* Adjust color to match your design */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  h4 {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1em;
+    line-height: 1.5;
+
+  }
+  
+  /* OurVision.css */
+.vision-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .vision-content {
+    width: 50%;
+    padding: 100px;
+    text-align: left;
+  }
+  
+  .vision-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .vision-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .vision-content p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .vision-image {
+    width: 50%;
+    padding: 50px;
+    border-radius: 50px;
+  }
+  
+  .team-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: for rounded corners */
+  }
+  
+/* Styling for the nearshore teams section */
+.nearshore-teams-container {
+    background-color: #1a1a2e; /* Dark background color */
+    color: #ffffff; /* White text color */
+    padding: 50px 20px; /* Padding around the content */
+    text-align: center; /* Center align text */
+    font-family: 'Arial', sans-serif; /* Font family */
+    max-width: 5000px; /* Max width to center content */
+    margin: 0 auto; /* Center container horizontally */
+  }
+  
+  .nearshore-teams-heading {
+    font-size: 1.2rem; /* Smaller font size for heading */
+    font-weight: bold; /* Bold font for heading */
+    margin-bottom: 20px; /* Space below heading */
+  }
+  
+  .nearshore-teams-description {
+    font-size: 1.5rem; /* Larger font size for paragraph */
+    line-height: 1.6; /* Line height for readability */
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .scroll-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden; /* Hide overflow for smooth scrolling */
+    background-color: #f8f8f8; /* Background color behind the boxes */
+    padding: 20px 0; /* Padding around the scrollable area */
+    border-radius: 10px; /* Optional: for rounded corners */
+}
+
+.country-section {
+    display: flex;
+    gap: 20px; /* Adds spacing between boxes */
+    overflow-x: auto; /* Horizontal scrolling enabled */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    width: 100%;
+}
+
+.country-box {
+    flex: 0 0 auto; /* Prevents shrinking and keeps fixed size */
+    width: 250px; /* Fixed width for each box */
+    background-color: rgba(210, 210, 173, 0.9); /* Slightly opaque background color */
+    border: 2px solid #ddd;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for background color and shadow */
+}
+
+.country-box:hover {
+    background-color: #1a1a2e; /* Change to a light gray or any color you prefer */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+    color: #e9e0e0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.country {
+    font-weight: bold;
+}
+
+.partner {
+    color: #5d75e8; /* Adjust color as needed */
+    text-align: right;
+}
+
+.business-details p {
+    margin: 5px 0;
+}
+
+.scroll-button {
+    background-color: #0056b3; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.scroll-button.left {
+    left: 0; /* Position on the left */
+}
+
+.scroll-button.right {
+    right: 0; /* Position on the right */
+}
+
+.scroll-button:hover {
+    background-color: #003d7a; /* Darker button color on hover */
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.big-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px; /* Adjust height as needed */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f0f0f0; /* Background color for the big box */
+}
+
+.video-container {
+    flex: 1;
+    position: relative;
+    border-radius: 10px; /* Optional: for rounded corners */
+    overflow: hidden;
+}
+
+.ground-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the container without distortion */
+}
+
+.text-content {
+    flex: 1;
+    padding: 20px;
+    max-width: 50%;
+}
+
+.text-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333; /* Dark gray text color */
+}
+
+.eleks-wrapper {
+    text-align: left;
+    padding: 20px;
+    max-width: 1200px; /* Limit the width of the container */
+    margin: auto; /* Center the wrapper */
+}
+
+.header-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 50px; /* Space below the header */
+    margin-left: 200px;
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.eleks-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.eleks-container::before,
+.eleks-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #ccc;
+    z-index: 1; /* Make sure lines are visible */
+}
+
+.eleks-container::before {
+    left: 0;
+}
+
+.eleks-container::after {
+    right: 0;
+}
+
+.eleks-block {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Needed for positioning the vertical line */
+    margin: 0 10px; /* Adding margin to separate blocks and make room for vertical lines */
+}
+
+.eleks-block:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -10px; /* Adjust as necessary to align with the margin */
+    width: 1px;
+    background-color: #ccc; /* Vertical line color */
+}
+
+.icon img {
+    width: 50px; /* Adjust size as necessary */
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
